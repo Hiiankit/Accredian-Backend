@@ -7,11 +7,5 @@
         "config": {}
       }
     ],
-    "routes": [
-      {
-        "src": "/api/*",
-        "dest": "/api"
-      }
-    ],
-    "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
   }
